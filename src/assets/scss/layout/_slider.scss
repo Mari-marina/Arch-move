@@ -1,0 +1,16 @@
+.slider {
+  &__title {
+    font-size: 48px;
+    line-height: 124%;
+    font-weight: 600;
+    max-width: 374px;
+    width: 100%;
+    margin-top: 128px;
+    @media all and (max-width: 560px) {
+      font-size: 30px;
+    }
+    @media all and (max-width: 900px) {
+      margin-top: 70px;
+    }
+  }
+}
